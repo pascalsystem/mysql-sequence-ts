@@ -1,11 +1,11 @@
 {
   "name": "mysql-sequence-ts",
   "description": "Mysql sequence synchronous query",
-  "version": "0.0.1",  
+  "version": "0.0.2",  
   "author": "Bartłomiej Królikowski <info@pascalsystem.pl>",
   "main": "dist/app.js",
   "license": "MIT",
-  "repository": "pascalsystem/mysql-sequence",
+  "repository": "pascalsystem/mysql-sequence-ts",
   "dependencies": {
     "callback-manager-ts": ">=0.1.2" 
   },
