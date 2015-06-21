@@ -1,7 +1,7 @@
 [![npm version](https://badge.fury.io/js/mysql-sequence-ts.svg)](http://badge.fury.io/js/mysql-sequence-ts)
 
 # mysql-sequence-ts
-BETA VERSION
+ALPHA VERSION
 
 Manage asynchronous mysql query.
 
