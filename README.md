@@ -1,7 +1,4 @@
- [![NPM Version][npm-image]][npm-url]
- [![NPM Downloads][downloads-image]][downloads-url]
- 
- # mysql-sequence-ts
+# mysql-sequence-ts
 BETA VERSION
 
 Manage asynchronous mysql query.
