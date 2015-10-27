@@ -1,0 +1,11 @@
+sudo: false
+language: node_js
+node_js:
+  - "0.10"
+  - "0.11"
+  - "0.12"
+services:
+  - mysql
+before_script:
+  - mysql -e 'create database reco_data;'
+  - mysql -e 'use reco_data; CREATE TABLE `test_table` (`id` int(11) NOT NULL AUTO_INCREMENT,`label` varchar(32) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;'
